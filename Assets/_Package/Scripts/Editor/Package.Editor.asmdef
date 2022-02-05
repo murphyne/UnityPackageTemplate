@@ -1,7 +1,7 @@
 {
     "name": "Package.Editor",
     "references": [
-        "GUID:1a9cee5987367c5499881af11ffcc85e"
+        "Package"
     ],
     "includePlatforms": [
         "Editor"
