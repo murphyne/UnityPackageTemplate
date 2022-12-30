@@ -7,7 +7,7 @@ public static class PackageBuilder
     [MenuItem("Assets/Create GZip tarball", false)]
     public static void PackTgz()
     {
-        const string sourceFolder = "Assets/_Package";
+        const string sourceFolder = "Packages/_Package";
         const string targetFolder = "Builds";
 
         var packRequest = Client.Pack(sourceFolder, targetFolder);
