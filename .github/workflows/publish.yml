@@ -23,7 +23,7 @@ jobs:
         lfs: true
 
     - name: Restore Library from cache
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       with:
         path: Library
         key: Library-base
@@ -52,7 +52,7 @@ jobs:
         echo "::set-output name=name::$(basename Builds/*.tgz)"
 
     - name: Upload .tgz to artifacts
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: ${{ steps.build_tgz.outputs.name }}
         path: ${{ steps.build_tgz.outputs.path }}
