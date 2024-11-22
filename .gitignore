@@ -3,6 +3,7 @@
 /[Ll]ogs
 /[Tt]emp
 /[Oo]bj
+/[Uu]serSettings
 
 /*.sln
 /*.csproj
