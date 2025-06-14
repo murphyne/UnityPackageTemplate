@@ -1,9 +1,14 @@
+/.idea
+/.vs
+/.vscode
+
 /[Bb]uilds
 /[Ll]ibrary
 /[Ll]ogs
 /[Tt]emp
 /[Oo]bj
-/[Uu]serSettings
+/[Uu]ser[Ss]ettings
 
 /*.sln
 /*.csproj
+/*.user
